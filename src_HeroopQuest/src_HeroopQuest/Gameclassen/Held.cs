@@ -7,7 +7,27 @@ namespace src_HeroopQuest.Gameclassen
     enum HeldType { Barbaar, Dwerg, Elf, Tovenaar}
     class Held
     {
-        public string Naam { get; set; }
+        public Held(HeldType type, string v)
+        {
+            switch (type)
+            {
+                case HeldType.Barbaar:
+                    break;
+                case HeldType.Dwerg:
+                    break;
+                case HeldType.Elf:
+                    break;
+                case HeldType.Tovenaar:
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        public string Naam 
+        { 
+            get; set; 
+        }
         public string Beschrijving { get; private set; }
         public int MaxIntelligentie { get; private set; }
         public int MaxLichaam { get; private set; }
