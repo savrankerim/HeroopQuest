@@ -18,7 +18,6 @@ namespace src_HeroopQuest
             held2.ToonFiche();
 
             List<Held> deHelden = new List<Held>();
-            List<Held> deHelden = new List<Held>();
         }
     }
 }
